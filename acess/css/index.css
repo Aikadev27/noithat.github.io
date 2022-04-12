@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'IBM Plex Serif', serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --bclr_nav: rgb(241, 250, 238);
+    --color_iemts: gray;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    background-color: var(--bclr_nav);
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.items {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.items a {
+    text-decoration: none;
+    /* color: var(--color_iemts); */
+}
