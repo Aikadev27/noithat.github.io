@@ -22,8 +22,6 @@ $(document).ready(function() {
         animateOut: "slideOutDown",
         animateIn: "flipInX",
         items: 1,
-
-
         smartSpeed: 450,
         autoplay: true,
         autoplayTimeout: 2500,
