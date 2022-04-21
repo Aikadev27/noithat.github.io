@@ -57,6 +57,10 @@ body {
     padding: 5px;
 }
 
+.top_list--items a:hover {
+    color: #07f49e;
+}
+
 .header_center {
     background-color: #fff;
 }
@@ -257,6 +261,10 @@ p {
     font-weight: bolder;
 }
 
+.desk_sup--item:hover {
+    color: #1263459b;
+}
+
 .desk_sup--item+.desk_sup--item {
     border-left: #ddd solid 1px;
     padding-left: 5px;
@@ -320,6 +328,10 @@ p {
     font-weight: bolder;
 }
 
+.card_text a:hover {
+    color: #0f6d4b92;
+}
+
 .price p {
     display: inline-block;
     font-size: medium;
@@ -344,10 +356,10 @@ p {
 }
 
 .seemore button {
-    margin: 0 auto;
+    margin: 10px auto;
     border-radius: 50px;
-    padding: 5px 30px;
-    background: linear-gradient(90deg, #696eff, #f8acff);
+    padding: 10px 50px;
+    background: var(--primary-clr);
     outline: none;
     border: none;
     color: #fff;
@@ -356,5 +368,151 @@ p {
 }
 
 .seemore button:hover {
-    background: linear-gradient(-90deg, #696eff, #f8acff);
+    opacity: .8;
+}
+
+.chair {
+    margin-bottom: 10px;
+}
+
+.chair a {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.chair_items--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card_img {
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.card_img:hover {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.cabinet_items--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cabin {
+    margin-bottom: 10px;
+}
+
+.cabin a {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.shelf {
+    margin-bottom: 10px;
+}
+
+.shelf a {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.shelf_items--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sofa {
+    margin-bottom: 10px;
+}
+
+.sofa a {
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+.sofa_items--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sofa a:hover {
+    color: darkgray;
+}
+
+.chair a:hover {
+    color: darkgray;
+}
+
+.desk a:hover {
+    color: darkgray;
+}
+
+.cabin a:hover {
+    color: darkgray;
+}
+
+.shelf a:hover {
+    color: darkgray;
+}
+
+.student {
+    margin-bottom: 10px;
+}
+
+.student a {
+    text-decoration: none;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+
+.student--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grass {
+    margin-bottom: 10px;
+}
+
+.grass a {
+    text-decoration: none;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+}
+
+.grass--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.student a:hover {
+    color: darkgray;
+}
+
+.grass a:hover {
+    color: darkgray;
 }

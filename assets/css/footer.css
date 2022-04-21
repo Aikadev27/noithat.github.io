@@ -1,0 +1,103 @@
+.footer--container {
+    margin: 0 auto;
+    background-color: black;
+    padding: 60px;
+    border-bottom: 0.01px rgba(186, 173, 173, 0.808) solid;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.About a {
+    color: rgba(186, 173, 173, 0.808);
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-size: larger;
+}
+
+.About a:hover {
+    color: white;
+}
+
+.Work a {
+    color: rgba(186, 173, 173, 0.808);
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-size: larger;
+}
+
+.Work a:hover {
+    color: white;
+}
+
+.Member a {
+    color: rgba(186, 173, 173, 0.808);
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-size: larger;
+}
+
+.Member a:hover {
+    color: white;
+}
+
+.Follow a {
+    color: rgba(186, 173, 173, 0.808);
+    text-decoration: none;
+    transition: 0.2s ease;
+    font-size: larger;
+}
+
+.Follow a:hover {
+    color: white;
+}
+
+#text_about {
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s ease;
+}
+
+#text_about:hover {
+    color: aqua;
+}
+
+#text_work {
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s ease;
+}
+
+#text_work:hover {
+    color: aqua;
+}
+
+#text_mem {
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s ease;
+}
+
+#text_mem:hover {
+    color: aqua;
+}
+
+#text_follow {
+    color: white;
+    font-weight: bolder;
+    transition: 0.2s ease;
+}
+
+#text_follow:hover {
+    color: aqua;
+}
+
+.sup_footer {
+    background-color: black;
+    color: rgba(186, 173, 173, 0.808);
+    padding: 30px;
+    text-align: center;
+}
