@@ -14,7 +14,7 @@
     --primary-clr: #2b5875;
 }
 
-*/ header {
+header {
     background-color: var(--primary-clr);
 }
 
