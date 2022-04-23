@@ -14,6 +14,9 @@
     --primary-clr: #2b5875;
 }
 
+
+/* lam on dugn co bugs nua*/
+
 header {
     background-color: var(--primary-clr);
 }
