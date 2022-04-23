@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://unpkg.com/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://unpkg.com/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./assets/css/footer.css" />
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
     <title>Nội Thất Văn Phòng</title>
 </head>
 
@@ -31,7 +34,7 @@
                         <a href="">Giới thiệu</a>
                     </li>
                     <li class="top_list--items">
-                        <a href="">Tin Tức</a>
+                        <a href="news.html">Tin Tức</a>
                     </li>
                     <li class="top_list--items">
                         <a href="">Liên hệ</a>
@@ -85,8 +88,8 @@
         <div class="header_bottom">
             <div class="fixed">
                 <div class="container">
-                    <a class="bottom_items">Trang chủ</a>
-                    <a class="bottom_items">Bàn làm việc <ion-icon name="chevron-down-outline"></ion-icon>
+                    <a class="bottom_items" onclick="Redirect()">Trang chủ</a>
+                    <a class="bottom_items" href="#to_desk">Bàn làm việc <ion-icon name="chevron-down-outline"></ion-icon>
               <div class="dropdown">
                 <div class="dropdown_items">bàn làm việc gỗ</div>
                 <div class="dropdown_items">bàn giám đốc</div>
@@ -95,7 +98,7 @@
                 <div class="dropdown_items">cụm bàn làm việc</div>
               </div>
             </a>
-                    <a class="bottom_items">Ghế Văn Phòng <ion-icon name="chevron-down-outline"></ion-icon>
+                    <a class="bottom_items" href="#to_chair">Ghế Văn Phòng <ion-icon name="chevron-down-outline"></ion-icon>
               <div class="dropdown">
                 <div class="dropdown_items">ghế giám đốc</div>
                 <div class="dropdown_items">ghế xoay</div>
@@ -104,18 +107,18 @@
                 <div class="dropdown_items">ghế băng chờ</div>
               </div>
             </a>
-                    <a class="bottom_items"> Bộ bàn học sinh</a>
+                    <a class="bottom_items" href="#to_student"> Bộ bàn học sinh</a>
                     <a class="bottom_items">Bộ bàn ghế văn phòng</a>
-                    <a class="bottom_items">Tủ văn phòng</a>
-                    <a class="bottom_items">kệ - giá đa năng</a>
+                    <a class="bottom_items" href="#to_cabinet">Tủ văn phòng</a>
+                    <a class="bottom_items" href="#to_shelf">kệ - giá đa năng</a>
                     <a class="bottom_items">quầy lễ tân - bộ bàn tiến khách</a>
-                    <a class="bottom_items">sofa <ion-icon name="chevron-down-outline"></ion-icon>
+                    <a class="bottom_items" href="#to_sofa">sofa <ion-icon name="chevron-down-outline"></ion-icon>
               <div class="dropdown">
                 <div class="dropdown_items">Ghế sofa</div>
                 <div class="dropdown_items">bàn sofa</div>
               </div>
             </a>
-                    <a class="bottom_items">thảm - cỏ văn phòng</a>
+                    <a class="bottom_items" href="#to_grass">thảm - cỏ văn phòng</a>
                     <a class="bottom_items">sản phẩm khác</a>
                 </div>
             </div>
@@ -146,14 +149,14 @@
             <!-- !List item -->
             <div class="list_item--container">
                 <div class="nav-content">
-                    <div class="desk">
+                    <div class="desk" id="to_desk">
                         <a href="">Bàn làm việc</a>
                     </div>
                     <div class="desk_sup">
-                        <a class="desk_sup--item" href="">Bàn giám đốc</a>
-                        <a class="desk_sup--item" href="">Bàn trưởng phòng</a>
-                        <a class="desk_sup--item" href="">Bàn Nhân Viên</a>
-                        <a class="desk_sup--item" href="">Cụm bàn làm việc</a>
+                        <a class="desk_sup--item" href="#to_desk">Bàn giám đốc</a>
+                        <a class="desk_sup--item" href="#to_chair">ghế văn phòng</a>
+                        <a class="desk_sup--item" href="#to_student">bàn học sinh</a>
+                        <a class="desk_sup--item" href="to_sofa">cụm sofa</a>
                     </div>
                 </div>
                 <div class="desk_items--container">
@@ -309,7 +312,7 @@
                     </div>
                 </div>
                 <div class="chair">
-                    <a href="">Ghế làm việc</a>
+                    <a href="" id="to_chair">Ghế làm việc</a>
                 </div>
                 <div class="chair_items--container">
                     <div class="card">
@@ -463,7 +466,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cabin">
+                <div class="cabin" id="to_cabinet">
                     <a href="">Tủ làm việc</a>
                 </div>
                 <div class="cabinet_items--container">
@@ -618,7 +621,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="shelf">
+                <div class="shelf" id="to_shelf">
                     <a href="">kệ văn phòng</a>
                 </div>
                 <div class="shelf_items--container">
@@ -773,7 +776,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sofa">
+                <div class="sofa" id="to_sofa">
                     <a href="">ghế sofa</a>
                 </div>
                 <div class="sofa_items--container">
@@ -929,7 +932,7 @@
                     </div>
 
                 </div>
-                <div class="student">
+                <div class="student" id="to_student">
                     <a href="">bộ bàn học sinh</a>
                 </div>
                 <div class="student--container">
@@ -1084,7 +1087,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="grass">
+                <div class="grass" id="to_grass">
                     <a href="">
                         thảm -  cỏ văn Phòng
                     </a>

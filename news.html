@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="main.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/owl.carousel@2.3.4/dist/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/owl.carousel@2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/owl.carousel@2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="./assets/css/news.css" />
+
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+    <title>Trang Tin Tức</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <div class="header_top--marquee">
+                <marquee behavior="" direction="row">
+                    Trường đại học Cần Thơ, đường 3 Tháng 2 , Phường Xuân Khánh, quận Ninh Kiều, Thành phố Cần Thơ - Việt Nam. SĐT: 0707004827
+                </marquee>
+            </div>
+            <div class="top_list">
+                <ul>
+                    <li class="top_list--items">
+                        <a href="">Giới thiệu</a>
+                    </li>
+                    <li class="top_list--items">
+                        <a href="">Tin Tức</a>
+                    </li>
+                    <li class="top_list--items">
+                        <a href="">Liên hệ</a>
+                    </li>
+                    <li class="top_list--items">
+                        <a href="">Đăng nhập</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header_center">
+            <div class="container">
+                <div class="logo">
+                    <a href="">
+                        <img src="./assets/image/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="search">
+                    <input type="text" name="" id="" placeholder="Nội dung tìm kiếm" />
+                    <div class="icon_search">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact-items">
+                        <div class="contact_icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div class="text">
+                            <b>01229493483</b><br />
+                            <p>Tư vấn miễn phí</p>
+                        </div>
+                    </div>
+                    <div class="contact-items">
+                        <div class="contact_icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div class="text">
+                            <b>01229493483</b><br />
+                            <p>Tư vấn miễn phí</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart">
+                    <button>
+              <b>Giỏ Hàng</b> <b>: 0<sup>đ</sup></b>
+            </button>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="fixed">
+                <div class="container">
+                    <a class="bottom_items" onclick="Redirect()">Trang chủ</a>
+                    <a class="bottom_items" href="#to_desk">Bàn làm việc <ion-icon name="chevron-down-outline"></ion-icon>
+              <div class="dropdown">
+                <div class="dropdown_items">bàn làm việc gỗ</div>
+                <div class="dropdown_items">bàn giám đốc</div>
+                <div class="dropdown_items">bàn họp</div>
+                <div class="dropdown_items">bàn chân sắt</div>
+                <div class="dropdown_items">cụm bàn làm việc</div>
+              </div>
+            </a>
+                    <a class="bottom_items" href="#to_chair">Ghế Văn Phòng <ion-icon name="chevron-down-outline"></ion-icon>
+              <div class="dropdown">
+                <div class="dropdown_items">ghế giám đốc</div>
+                <div class="dropdown_items">ghế xoay</div>
+                <div class="dropdown_items">ghế chân quỳ</div>
+                <div class="dropdown_items">ghế xếp</div>
+                <div class="dropdown_items">ghế băng chờ</div>
+              </div>
+            </a>
+                    <a class="bottom_items" href="#to_student"> Bộ bàn học sinh</a>
+                    <a class="bottom_items">Bộ bàn ghế văn phòng</a>
+                    <a class="bottom_items" href="#to_cabinet">Tủ văn phòng</a>
+                    <a class="bottom_items" href="#to_shelf">kệ - giá đa năng</a>
+                    <a class="bottom_items">quầy lễ tân - bộ bàn tiến khách</a>
+                    <a class="bottom_items" href="#to_sofa">sofa <ion-icon name="chevron-down-outline"></ion-icon>
+              <div class="dropdown">
+                <div class="dropdown_items">Ghế sofa</div>
+                <div class="dropdown_items">bàn sofa</div>
+              </div>
+            </a>
+                    <a class="bottom_items" href="#to_grass">thảm - cỏ văn phòng</a>
+                    <a class="bottom_items">sản phẩm khác</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="banner_top--container">
+        <div class="banner_pic">
+            <img src="./assets/image/banner.jpg" alt="">
+
+        </div>
+    </div>
+    <div class="news--container">
+        <div class="news_card-items">
+            <div class="supper_card">
+                <div class="news_card-left">
+                    <img src="./assets/image/news card/card1.jpg" alt="">
+                </div>
+                <div class="news_card-right">
+                    <p id="p1">Mười Phong Cách Đáng Sống dù chỉ một lần <br> trong đời </p><br>
+                    <p id="p2">Etiam erat velit scelerisque in dictum non consectetur a erat, Enim nulla aliquet prottitor lacus luctus accumsan tortor</p>
+                </div>
+            </div>
+        </div>
+        <div class="news_card-items">
+            <div class="supper_card">
+                <div class="news_card-left">
+                    <img src="./assets/image/news card/card2.jpg" alt="">
+                </div>
+                <div class="news_card-right">
+                    <p id="p1">Mười Phong Cách Đáng Sống dù chỉ một lần <br> trong đời </p><br>
+                    <p id="p2">Etiam erat velit scelerisque in dictum non consectetur a erat, Enim nulla aliquet prottitor lacus luctus accumsan tortor</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="news_card-items">
+            <div class="supper_card">
+                <div class="news_card-left">
+                    <img src="./assets/image/news card/card3.jpg" alt="">
+                </div>
+                <div class="news_card-right">
+                    <p id="p1">Mười Phong Cách Đáng Sống dù chỉ một lần <br> trong đời </p><br>
+                    <p id="p2">Etiam erat velit scelerisque in dictum non consectetur a erat, Enim nulla aliquet prottitor lacus luctus accumsan tortor</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="news_card-items">
+            <div class="supper_card">
+                <div class="news_card-left">
+                    <img src="./assets/image/news card/card4.jpeg" alt="">
+                </div>
+                <div class="news_card-right">
+                    <p id="p1">Mười Phong Cách Đáng Sống dù chỉ một lần <br> trong đời </p><br>
+                    <p id="p2">Etiam erat velit scelerisque in dictum non consectetur a erat, Enim nulla aliquet prottitor lacus luctus accumsan tortor</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news_contact--container">
+        <div class="news_contact-items">
+            <div class="supper-contact">
+                <div>
+                    <ion-icon name="car"></ion-icon>
+                </div>
+                <div class="news_contact-text">
+                    <p id="first_text">Miễn phí giao hàng</p><br>
+                    <p id="last_text">Dành cho đơn hàng 3.000.000+</p>
+                </div>
+            </div>
+        </div>
+        <div class="news_contact-items">
+            <div class="supper-contact">
+                <div>
+                    <ion-icon name="swap-horizontal" id="trade"></ion-icon>
+                </div>
+                <div class="news_contact-text">
+                    <p id="first_text">30 ngày đổi trả</p><br>
+                    <p id="last_text">Dành cho tất cả đơn hàng</p>
+                </div>
+            </div>
+        </div>
+        <div class="news_contact-items">
+            <div class="supper-contact">
+                <div>
+                    <ion-icon name="chatbubbles" id="chat"></ion-icon>
+                </div>
+                <div class="news_contact-text">
+                    <p id="first_text">Hỗ trợ 24/7</p><br>
+                    <p id="last_text">Vui lòng liên hệ cho bộ phận online</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_contact--container">
+            <div class="supper_footer">
+                <div class="care">
+                    <ul>
+                        <li>Chăm sóc khách hàng</li>
+                        <li>Hotline(Mr. Nhân) : <a href="">0707004827</a></li>
+                        <li>Hotline(Mr. Nhân) : <a href="">0707004827 </a></li>
+                        <li>Email : <a href="">nhanb2007253@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="support">
+                    <ul>
+                        <li><a href="" id="support_a">Hỗ trợ khách hàng</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Đang khuyến mãi</a></li>
+                        <li><a href="">Câu hỏi thường gặp</a> </li>
+                        <li><a href="">Hương dẫn mua hàng</a></li>
+                    </ul>
+                </div>
+                <div class="rule">
+                    <ul>
+                        <li>Chính sách</li>
+                        <li>
+                            <a href="">Tin tức công nghệ</a>
+                        </li>
+                        <li>
+                            <a href="">Chính sách bảo mật</a>
+                        </li>
+                        <li>
+                            <a href="">Bảo hàng & Đổi trả</a>
+                        </li>
+                        <li>
+                            <a href="">Đặt hàng & Thanh toán</a>
+                        </li>
+                        <li>
+                            <a href="">Vận chuyển & Giao hàng</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fanpage">
+                    <ul>
+                        <li>Fanpage</li>
+                        <li>
+                            <img src="./assets/image/fanpage-pic.jpeg" alt="" class="fanpage_pic">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="last_footer">
+            <div class="last_text">
+                <p>© 2020 Nội thất văn phòng Cần Thơ | Bàn ghế văn phòng Cần Thơ. Design by Vietcore</p>
+            </div>
+            <div class="last_pic">
+                <img src="./assets/image/pay_pic.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
