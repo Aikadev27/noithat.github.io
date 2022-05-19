@@ -1,0 +1,13 @@
+.backup a {
+    list-style: none;
+    text-decoration: none;
+    color: darksalmon;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.backup {
+    width: 100px;
+    height: 20px;
+    margin-left: -40px;
+}

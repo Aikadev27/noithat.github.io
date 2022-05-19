@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./contact.js"></script>
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <!------ Include the above in your HEAD tag ---------->
+
+
+    <title>Liên hệ</title>
+</head>
+
+<body>
+    <section class="Material-contact-section section-padding section-dark">
+        <div class="container">
+            <div class="row">
+                <!-- Section Titile -->
+                <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+                    <h1 class="section-title">Love to Hear From You</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Section Titile -->
+                <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
+                    <p>Để liên hệ với chúng tôi, vui lòng điền đầy đủ thông tin ở biểu mẫu bên cạnh. Mọi thông tin và phản hồi của bạn sẽ được gửi đến bộ phận chăm sóc khách hàng của chúng tôi. Chúng tôi cam đoan giữ bảo mật thông tin các nhân của khác hàng.</p>
+
+                    <div class="find-widget">
+                        Company: <a href="https://www.ctu.edu.vn/">Can Tho University</a>
+                    </div>
+                    <div class="find-widget">
+                        Address: <a href="#">Đường 3/2, Phường Xuân Khánh, Quận Ninh Kiều, Thành Phố Cần Thơ</a>
+                    </div>
+                    <div class="find-widget">
+                        Phone: <a href="#">+84707004827</a>
+                    </div>
+
+                    <div class="find-widget">
+                        Facebook: <a href="https://www.facebook.com/">Aikadev </a>
+                    </div>
+                    <div class="find-widget">
+                        Program: <a href="#">Mon to Sat: 09:30 AM - 10.30 PM</a>
+                    </div>
+                </div>
+                <!-- contact form -->
+                <div class="col-md-6 wow animated fadeInRight" data-wow-delay=".2s">
+                    <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                        <!-- Name -->
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="name">Name</label>
+                            <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- email -->
+                        <div class="form-group label-floating">
+                            <label class="control-label" for="email">Email</label>
+                            <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="form-group label-floating">
+                            <label class="control-label">Subject</label>
+                            <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Message -->
+                        <div class="form-group label-floating">
+                            <label for="message" class="control-label">Message</label>
+                            <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- Form Submit -->
+                        <div class="form-submit mt-5">
+                            <button class="btn btn-common" type="submit" id="form-submit" onclick="back()"><i class="material-icons mdi mdi-message-outline"></i> Send And Back</button>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

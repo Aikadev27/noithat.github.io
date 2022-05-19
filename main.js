@@ -32,3 +32,7 @@ $(document).ready(function() {
 function Redirect() {
     window.location = "index.html";
 }
+
+function to_cart() {
+    location.replace("cart.html")
+}
