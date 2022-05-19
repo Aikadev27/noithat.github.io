@@ -34,5 +34,5 @@ function Redirect() {
 }
 
 function to_cart() {
-    location.replace("cart.html")
+    location.replace("cart.html");
 }
